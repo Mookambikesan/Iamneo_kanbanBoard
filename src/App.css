@@ -1,0 +1,116 @@
+.custom-scroll::-webkit-scrollbar {
+  width: 8px;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb:hover {
+  border: 1px solid gray;
+}
+
+
+.app {
+  display: flex;
+  
+}
+
+main {
+  width: 100%;
+  padding-left: 80px; 
+}
+
+
+.app_nav {
+  padding: 20px;
+  box-shadow: 0 1px 20px rgba(56, 40, 40, 0.05);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  background-color: rgb(255, 255, 255);
+}
+
+
+.add_button{
+  color: whitesmoke;
+  background-color:rgb(36, 36, 80);
+  border-radius: 12%;
+  position: relative;
+  border-color: #fff;
+  left: 45%;
+  width: 6%;
+  height:35px;
+
+}
+.app_boards_container {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  overflow-x: auto;
+  padding-top: 20px;
+}
+
+.serach-text{
+  border: 1px solid black;
+  position: relative;
+  left: 45%;
+}
+
+.app_boards {
+  height: 100%;
+  width: fit-content;
+  padding: 10px 30px;
+  display: flex;
+  gap: 30px;
+}
+
+.app_boards_last {
+  flex-basis: 290px;
+  min-width: 290px;
+}
+
+.app_boards_add-board {
+  background-color: #fff;
+  color: #000;
+  border-radius: 10px;
+  box-shadow: 1px 1px 0 1px rgba(0, 0, 0, 0.12);
+  width: 100%;
+  text-align: center;
+}
+.app_boards_add-board_edit {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+}
+#pic{
+  position: relative;
+  left:50%;
+  height:1.9%;
+  width: 1.9%;
+  top:2px;
+  
+
+}
+#pic1{
+  position: relative;
+  left:46.3%;
+  height:1.3%;
+  width:1.3%;
+  
+}
+#pic2{
+  position:relative;
+  left:43%;
+  height:1.4%;
+  width:1.4%;
+
+}
+.image{
+  position:relative;
+  height:4%;
+  width:4%;
+  top:15px;
+}

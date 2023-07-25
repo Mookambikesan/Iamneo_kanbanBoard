@@ -1,0 +1,43 @@
+.pathComo{
+    background-color: whitesmoke;
+    margin-top: 0.2%;
+    margin-left: 0px;
+    height:10%;
+    
+}
+.btn1{
+    margin-left:2%;
+    margin-top: 10px;
+    background-color:rgb(36, 36, 80);
+    color: whitesmoke;
+    border:0.5px solid whitesmoke;
+    border-radius:12% ;
+    padding:2px;
+    height:35px;
+
+   
+}
+.cd{
+    margin-left: 58%;
+    background-color:rgb(36, 36, 80);
+    border-radius: 12%;
+    padding: 2px;
+    color: whitesmoke;
+    border:0.5px solid whitesmoke;
+    height:35px;
+}
+.btn2{
+    margin-left:1%;
+    background-color:rgb(36, 36, 80);
+    border-radius: 12%;
+    height: 1%;
+    width: 6%;
+    padding: 2px;
+    border:0.5px solid whitesmoke;
+    color: whitesmoke;
+    height:35px;
+    
+}
+#icon1{
+    margin-left: 1%;
+}
